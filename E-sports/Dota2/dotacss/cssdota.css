@@ -1,0 +1,14 @@
+﻿h1 {
+    color: white;
+    background: #000000;
+    text-align: center;
+    font-family: BankGothic Md BT;
+}
+section,header{
+    text-align:center;
+}
+footer{
+    text-align:center;
+    color:white;
+    background:black;
+}
