@@ -1,0 +1,44 @@
+﻿h1 {
+    text-align: center;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-family: BankGothic Md BT;
+}
+#imp a {
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+}
+h3 {
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    background-color:rgba(221, 40, 40, 0.80);
+    font-family: monospace;
+    font-size: 20px;
+}
+header, section, footer {
+    text-align: center;
+}
+h2 {
+    height: 30px;
+    width: 300px;
+    background-color:#0dea8a;
+    text-align: center;
+    padding: 3px;
+    display: inline-block;
+    font-family: monospace;
+}
+#download {
+    background-color: #ffd800;
+    width: 100px;
+}
+a:hover {
+    background-color: red;
+    color: white;
+}
