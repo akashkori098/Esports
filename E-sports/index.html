@@ -12,7 +12,8 @@
             background: #000000;
             color: #ffffff;
             font-family:BankGothic Md BT;
-            text-decoration:none;
+            transition-property:color,background;
+            transition-duration:0.5s;
         }
 
         figure {
@@ -23,17 +24,45 @@
             background:black;
             text-align:center;
         }
-        div a{
-            font-family:monospace;
+        body {
+            background-color:rgba(26, 19, 19, 0.68);
+           
+            background-size: cover;
         }
-         body{
-            background:yellow;
-            background-size:cover;
-        }
-        
-        a:hover{
+   div{
+       text-align:center;
+   }
+        nav a{
             text-decoration:none;
         }
+       h1:hover{
+           color:black;
+           background:#ff6a00;
+           
+       }
+       h3{
+           color:white;
+           width:300px;
+           height:30px;
+           text-decoration:none;
+           background-color:#0764f7;
+           font-weight:bold;
+           display:inline-block;
+           
+           font-family:monospace;
+           text-transform:uppercase;
+           transition-property:width,color,background-color;
+           transition-duration:1s;
+       }
+       h3:hover{
+           width:600px;
+           color:black;
+           background-color:rgba(250, 34, 34, 0.86);
+       }
+       div p{
+           color:yellow;
+           font-weight:200;
+       }
     </style>
 
 </head>
@@ -42,13 +71,14 @@
     <nav>
         <a href="index.html"><h1>Esports.In</h1></a>
     </nav>
-    <figure>
+    
+    <div>
+        <p>Esports (also known as electronic sports, e-sports, or eSports) is a form of sport competition using video games.Esports often takes the form of organized, multiplayer video game competitions, particularly between professional players, individually or as teams.</p>
+   <figure>
         <img src="Fortnite.png" alt="Fortnite" width="50%" />
         <figcaption>@ Fortnite</figcaption>
     </figure>
-    <div>
-        <p>Esports (also known as electronic sports, e-sports, or eSports) is a form of sport competition using video games.Esports often takes the form of organized, multiplayer video game competitions, particularly between professional players, individually or as teams.</p>
-    <a href="HTML2.html">List of all time best Esports</a>
+        <a href="HTML2.html">List of all time best Esports</a>
     </div>
     <footer>
         <p> &copy;All Rights Reserved 2020</p>
