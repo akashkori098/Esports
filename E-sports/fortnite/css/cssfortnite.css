@@ -13,3 +13,47 @@ footer{
     color:white;
     background:black;
 }
+h2 {
+    height: 30px;
+    width: 300px;
+    background-color: #eebf08;
+    text-align: center;
+    padding: 3px;
+    display: inline-block;
+    font-family: monospace;
+}
+
+h3 {
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    background-color: rgba(7, 223, 237, 0.62);
+    font-family: monospace;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+#download {
+    width: 100px;
+    background-color: #08ff86;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+video {
+    box-shadow: 0 10px 20px black;
+}
+header img {
+    box-shadow: 0 10px 20px red;
+}
+header figcaption {
+    padding-top: 15px;
+}
