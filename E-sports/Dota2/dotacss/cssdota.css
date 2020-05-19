@@ -12,3 +12,38 @@ footer{
     color:white;
     background:black;
 }
+h2{
+    width:100px;
+    background-color:#808080;
+    font-family:monospace;
+    text-align:center;
+    display:inline-block;
+    color:rgba(148, 243, 26, 1);
+}
+header img{
+    box-shadow:0 10px 20px yellow;
+  
+}
+header figcaption{
+    padding-top:15px;
+}
+h3 {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background-color: #18efdc;
+    
+    font-weight: bold;
+    height: 25px;
+}
+video{
+    box-shadow:0 10px 20px black;
+}
+#download {
+    width: 100px;
+    background-color: pink;
+    font-family: monospace;
+    text-align: center;
+    display: inline-block;
+    color: black;
+}
