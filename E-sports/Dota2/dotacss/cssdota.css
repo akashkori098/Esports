@@ -47,3 +47,6 @@ video{
     display: inline-block;
     color: black;
 }
+#head{
+    text-decoration:none;
+}
